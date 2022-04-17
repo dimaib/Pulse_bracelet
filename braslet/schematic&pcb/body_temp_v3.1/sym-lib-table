@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name body_temp-rescue)(type Legacy)(uri ${KIPRJMOD}/body_temp-rescue.lib)(options "")(descr ""))
+)

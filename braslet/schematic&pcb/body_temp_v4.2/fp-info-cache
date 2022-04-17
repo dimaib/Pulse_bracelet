@@ -1,0 +1,120 @@
+27215750169963
+body_temp
+Crystal_SMD_5032-2Pin_5.0x3.2mm_HandSoldering
+SMD Crystal SERIES SMD2520/2 http://www.icbase.com/File/PDF/HKC/HKC00061008.pdf, hand-soldering, 5.0x3.2mm^2 package
+SMD SMT crystal hand-soldering
+0
+2
+2
+body_temp
+DFN-6-1EP_3x3mm_P1mm_EP1.5x2.4mm
+DFN, 6 Pin (https://www.silabs.com/documents/public/data-sheets/Si7020-A20.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+DFN NoLead
+0
+6
+6
+body_temp
+ESP-06_
+
+
+0
+20
+20
+body_temp
+ESP-12E
+Wi-Fi Module, http://wiki.ai-thinker.com/_media/esp8266/docs/aithinker_esp_12f_datasheet_en.pdf
+Wi-Fi Module
+0
+22
+22
+body_temp
+KLS7-TS6335
+Light Touch Switch
+
+0
+4
+2
+body_temp
+LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y
+LGA, 14 Pin (http://www.st.com/resource/en/datasheet/lsm6ds3.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+LGA NoLead
+0
+14
+14
+body_temp
+MSOP-8-1EP_3x3mm_P0.65mm_EP1.95x2.15mm
+MSOP, 8 Pin (http://www.st.com/resource/en/datasheet/pm8834.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+MSOP SO
+0
+13
+9
+body_temp
+Maxim_OLGA-14_3.3x5.6mm_P0.8mm
+https://pdfserv.maximintegrated.com/land_patterns/90-0602.PDF
+OLGA-14 OESIP-14
+0
+14
+14
+body_temp
+SW_SPST_B3U-3000P-B
+Ultra-small-sized Tactile Switch with High Contact Reliability, Side-actuated Model, without Ground Terminal, with Boss
+Tactile Switch
+0
+2
+2
+body_temp
+SW_SPST_EVQP7C
+Light Touch Switch
+
+0
+4
+2
+body_temp
+USB_Micro-B_Molex-105017-0001
+http://www.molex.com/pdm_docs/sd/1050170001_sd.pdf
+Micro-USB SMD Typ-B
+0
+13
+6
+body_temp
+ZH_Conn_02x01
+
+
+0
+2
+2
+body_temp
+ZH_Conn_04x01
+
+
+0
+4
+4
+body_temp
+accum
+
+
+0
+2
+2
+body_temp
+ds1066-05m_2.0mm
+
+
+0
+5
+5
+body_temp
+puls
+
+
+0
+0
+0
+body_temp
+temp
+
+
+0
+0
+0

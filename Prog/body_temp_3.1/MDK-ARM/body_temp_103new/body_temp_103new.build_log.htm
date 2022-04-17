@@ -1,0 +1,175 @@
+<html>
+<body>
+<pre>
+<h1>�Vision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: �Vision V5.32.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: dimaib dimaib, 1, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.32.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.32.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.8.0
+Dialog DLL:      TCM.DLL V1.46.0.0
+ 
+<h2>Project:</h2>
+C:\Mega\Prog\body_temp_3.1\MDK-ARM\body_temp_103new.uvprojx
+Project File Date:  11/20/2020
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'body_temp_103new'
+assembling startup_stm32f103xb.s...
+compiling hr_meter.c...
+..\Src\hr_meter.c(23): warning:  #1-D: last line of file ends without a newline
+  }
+..\Src\hr_meter.c: 1 warning, 0 errors
+compiling data_processing.c...
+..\Src\data_processing.c(117): warning:  #1-D: last line of file ends without a newline
+  }
+..\Src\data_processing.c: 1 warning, 0 errors
+compiling gpio.c...
+compiling Si7021_driver.c...
+../Inc/function.h(20): warning:  #1295-D: Deprecated declaration init_perif - give arg types
+  void init_perif();																														//сброс и инициализация перефирии
+..\Src\Si7021_driver.c: 1 warning, 0 errors
+compiling hr_sp02_math.c...
+../Inc/hr_spo2_math.h(8): warning:  #1295-D: Deprecated declaration hr_filter_init - give arg types
+  void hr_filter_init();
+..\Src\hr_sp02_math.c(160): warning:  #1-D: last line of file ends without a newline
+  }
+..\Src\hr_sp02_math.c(83): warning:  #177-D: variable "sum"  was declared but never referenced
+  	uint32_t sum = 0;//sum of samples
+..\Src\hr_sp02_math.c(84): warning:  #177-D: variable "ls"  was declared but never referenced
+  	float32_t ls = 0;//local sum of SpO2
+..\Src\hr_sp02_math.c: 4 warnings, 0 errors
+compiling function.c...
+../Inc/function.h(20): warning:  #1295-D: Deprecated declaration init_perif - give arg types
+  void init_perif();																														//сброс и инициализация перефирии
+..\Src\function.c(231): warning:  #177-D: variable "buf"  was declared but never referenced
+  	char buf[100]={0};
+..\Src\function.c: 2 warnings, 0 errors
+compiling max30100_for_stm32_hal.c...
+../Inc/function.h(20): warning:  #1295-D: Deprecated declaration init_perif - give arg types
+  void init_perif();																														//сброс и инициализация перефирии
+../Inc/hr_spo2_math.h(8): warning:  #1295-D: Deprecated declaration hr_filter_init - give arg types
+  void hr_filter_init();
+..\Src\max30100_for_stm32_hal.c(82): warning:  #188-D: enumerated type mixed with another type
+  		MAX30100_SetMode(_max30100_mode);
+..\Src\max30100_for_stm32_hal.c(184): warning:  #177-D: variable "data"  was declared but never referenced
+  	char data[50];
+..\Src\max30100_for_stm32_hal.c(215): warning:  #188-D: enumerated type mixed with another type
+  	MAX30100_SetLEDCurrent(_max30100_red_current_prev, _max30100_ir_current_prev);
+..\Src\max30100_for_stm32_hal.c(215): warning:  #188-D: enumerated type mixed with another type
+  	MAX30100_SetLEDCurrent(_max30100_red_current_prev, _max30100_ir_current_prev);
+..\Src\max30100_for_stm32_hal.c(216): warning:  #188-D: enumerated type mixed with another type
+  	MAX30100_SetMode(_max30100_mode_prev);
+..\Src\max30100_for_stm32_hal.c: 7 warnings, 0 errors
+compiling adc.c...
+compiling main.c...
+../Inc/function.h(20): warning:  #1295-D: Deprecated declaration init_perif - give arg types
+  void init_perif();																														//сброс и инициализация перефирии
+../Inc/hr_spo2_math.h(8): warning:  #1295-D: Deprecated declaration hr_filter_init - give arg types
+  void hr_filter_init();
+../Src/main.c: 2 warnings, 0 errors
+compiling tim.c...
+compiling dac.c...
+compiling i2c.c...
+compiling usart.c...
+compiling stm32f1xx_hal_msp.c...
+compiling stm32f1xx_hal_gpio_ex.c...
+compiling stm32f1xx_it.c...
+../Inc/function.h(20): warning:  #1295-D: Deprecated declaration init_perif - give arg types
+  void init_perif();																														//сброс и инициализация перефирии
+../Inc/hr_spo2_math.h(8): warning:  #1295-D: Deprecated declaration hr_filter_init - give arg types
+  void hr_filter_init();
+../Src/stm32f1xx_it.c: 2 warnings, 0 errors
+compiling stm32f1xx_hal.c...
+compiling stm32f1xx_hal_gpio.c...
+compiling stm32f1xx_hal_adc_ex.c...
+compiling stm32f1xx_hal_rcc_ex.c...
+compiling stm32f1xx_hal_adc.c...
+compiling stm32f1xx_hal_rcc.c...
+compiling stm32f1xx_hal_dma.c...
+compiling stm32f1xx_hal_cortex.c...
+compiling stm32f1xx_hal_pwr.c...
+compiling stm32f1xx_hal_exti.c...
+compiling stm32f1xx_hal_flash_ex.c...
+compiling stm32f1xx_hal_flash.c...
+compiling stm32f1xx_hal_dac.c...
+compiling stm32f1xx_hal_dac_ex.c...
+compiling BasicMathFunctions.c...
+compiling BayesFunctions.c...
+compiling ComplexMathFunctions.c...
+compiling stm32f1xx_hal_uart.c...
+compiling system_stm32f1xx.c...
+compiling ControllerFunctions.c...
+compiling stm32f1xx_hal_tim_ex.c...
+compiling FastMathFunctions.c...
+compiling DistanceFunctions.c...
+compiling SVMFunctions.c...
+compiling CommonTables.c...
+compiling stm32f1xx_hal_i2c.c...
+compiling MatrixFunctions.c...
+compiling StatisticsFunctions.c...
+compiling stm32f1xx_hal_tim.c...
+compiling SupportFunctions.c...
+compiling TransformFunctions.c...
+compiling FilteringFunctions.c...
+linking...
+Program Size: Code=21592 RO-data=31668 RW-data=136 ZI-data=9640  
+FromELF: creating hex file...
+"body_temp_103new\body_temp_103new.axf" - 0 Error(s), 20 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.7.0.pack
+                ARM.CMSIS.5.7.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.4.0
+   * Component: DSP Variant: Source Version: 1.8.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.3.0.pack
+                Keil.STM32F1xx_DFP.2.3.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_body_temp_103new
+  C:\Users\dimaib\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include
+  C:\Users\dimaib\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\DSP\Include
+  C:\Users\dimaib\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\DSP\PrivateInclude
+  C:\Users\dimaib\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.4.0
+
+   * Component: ARM::CMSIS:DSP:Source:1.8.0
+      Source file:   CMSIS\DSP\Source\MatrixFunctions\MatrixFunctions.c
+      Source file:   CMSIS\DSP\Source\DistanceFunctions\DistanceFunctions.c
+      Source file:   CMSIS\DSP\Source\StatisticsFunctions\StatisticsFunctions.c
+      Source file:   CMSIS\DSP\Source\ControllerFunctions\ControllerFunctions.c
+      Include file:  CMSIS\DSP\Include\arm_math.h
+      Source file:   CMSIS\DSP\Source\FilteringFunctions\FilteringFunctions.c
+      Source file:   CMSIS\DSP\Source\FastMathFunctions\FastMathFunctions.c
+      Source file:   CMSIS\DSP\Source\SVMFunctions\SVMFunctions.c
+      Source file:   CMSIS\DSP\Source\ComplexMathFunctions\ComplexMathFunctions.c
+      Source file:   CMSIS\DSP\Source\CommonTables\CommonTables.c
+      Source file:   CMSIS\DSP\Source\BasicMathFunctions\BasicMathFunctions.c
+      Source file:   CMSIS\DSP\Source\BayesFunctions\BayesFunctions.c
+      Source file:   CMSIS\DSP\Source\SupportFunctions\SupportFunctions.c
+      Source file:   CMSIS\DSP\Source\TransformFunctions\TransformFunctions.c
+Build Time Elapsed:  00:00:33
+</pre>
+</body>
+</html>
