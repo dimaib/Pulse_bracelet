@@ -1,5 +1,5 @@
 
-# Wireless access device
+# Oxemetry and pulsometry
 ## Description
 This system allows you to distribute people between warehouse equipment and give permission to control certain types of machines. It also allows you to take into account the working hours of employees and conduct convenient analytics according to these hours.
 ## System Composition
